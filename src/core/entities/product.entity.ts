@@ -25,7 +25,7 @@ export class Product extends BaseModel {
     price!: number
 
     @Column({ type: 'text' })
-    description?: Text
+    description?: string
 
     @Column({ type: 'enum', enum: Status })
     status?: Status
