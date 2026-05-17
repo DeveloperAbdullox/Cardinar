@@ -6,7 +6,6 @@ import { Image } from "./images.entity";
 import { Articul } from "./articuls.entity";
 import { ProductColor } from "./productColors.entity";
 import { CartItem } from "./cartItem.entity";
-import { Order } from "./orders.entity";
 import { OrderItem } from "./orderItems.entity";
 
 @Entity('products')
