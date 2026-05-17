@@ -4,7 +4,6 @@ import { ApiTags } from "@nestjs/swagger";
 import { ProductCreateDto } from "./dto/product.create.dto";
 import { ProductCreateCommand } from "./commands/product.create.command";
 import { ProductListQuery } from "./queries/product.list.query";
-import { ProductListDto } from "./dto/product.list.dto";
 
 @ApiTags('Product')
 @Controller('product')

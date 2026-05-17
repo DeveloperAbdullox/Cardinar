@@ -5,7 +5,7 @@ export const configureSwagger = (app: INestApplication) => {
     let swaggerConfig = new DocumentBuilder()
 
     .setTitle('Cardinar')
-    .addBearerAuth()
+    // .addBearerAuth()
     .setVersion('1.0.0')
     .build()
 
