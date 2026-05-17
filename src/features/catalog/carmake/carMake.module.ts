@@ -4,7 +4,7 @@ import { TypeOrmModule } from "@nestjs/typeorm";
 import { CarMake } from "src/core/entities/carMakes.entity";
 import { CarMakeCreateHandler } from "./handler/carMake.create.handler";
 import { CarMakeController } from "./carMake.controller";
-import { CarMakeListQuery } from "./query/carMake.list.query";
+import { CarMakeListHandler } from "./handler/carMake.list.handler";
 
 @Module({
     imports: [
@@ -16,7 +16,7 @@ import { CarMakeListQuery } from "./query/carMake.list.query";
     ],
     providers: [
         CarMakeCreateHandler,
-        CarMakeListQuery
+        CarMakeListHandler
     ]
 })
 

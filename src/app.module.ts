@@ -6,6 +6,7 @@ import { BranchesModule } from './features/branches/branches.module';
 import { ProductModule } from './features/products/products.module';
 import { CategoryModule } from './features/catalog/category/category.module';
 import { CarMakeModule } from './features/catalog/carmake/carMake.module';
+import { CarModelModule } from './features/catalog/carModel/carModel.module';
 
 @Module({
   imports: [
@@ -14,7 +15,8 @@ import { CarMakeModule } from './features/catalog/carmake/carMake.module';
     BranchesModule,
     ProductModule,
     CategoryModule,
-    CarMakeModule
+    CarMakeModule,
+    CarModelModule
   ],
   providers: [],
 })
