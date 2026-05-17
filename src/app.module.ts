@@ -5,6 +5,7 @@ import { AuthenticationModule } from './features/authentication/authentication.m
 import { BranchesModule } from './features/branches/branches.module';
 import { ProductModule } from './features/products/products.module';
 import { CategoryModule } from './features/catalog/category/category.module';
+import { CarMakeModule } from './features/catalog/carmake/carMake.module';
 
 @Module({
   imports: [
@@ -12,7 +13,8 @@ import { CategoryModule } from './features/catalog/category/category.module';
     AuthenticationModule,
     BranchesModule,
     ProductModule,
-    CategoryModule
+    CategoryModule,
+    CarMakeModule
   ],
   providers: [],
 })
