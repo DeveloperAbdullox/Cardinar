@@ -10,6 +10,7 @@ import { CarModelModule } from './features/catalog/carModel/carModel.module';
 import { ColorModule } from './features/catalog/color/color.module';
 import { MaterialModule } from './features/catalog/material/material.module';
 import { ArticulModule } from './features/products/articul/articul.module';
+import { ImageModule } from './features/products/image/image.module';
 
 @Module({
   imports: [
@@ -22,7 +23,8 @@ import { ArticulModule } from './features/products/articul/articul.module';
     CarModelModule,
     ColorModule,
     MaterialModule,
-    ArticulModule
+    ArticulModule,
+    ImageModule
   ],
   providers: [],
 })
