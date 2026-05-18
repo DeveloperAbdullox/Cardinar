@@ -8,6 +8,7 @@ import { CategoryModule } from './features/catalog/category/category.module';
 import { CarMakeModule } from './features/catalog/carmake/carMake.module';
 import { CarModelModule } from './features/catalog/carModel/carModel.module';
 import { ColorModule } from './features/catalog/color/color.module';
+import { MaterialModule } from './features/catalog/material/material.module';
 
 @Module({
   imports: [
@@ -18,7 +19,8 @@ import { ColorModule } from './features/catalog/color/color.module';
     CategoryModule,
     CarMakeModule,
     CarModelModule,
-    ColorModule
+    ColorModule,
+    MaterialModule
   ],
   providers: [],
 })
