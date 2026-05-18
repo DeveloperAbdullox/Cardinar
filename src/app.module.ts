@@ -11,6 +11,7 @@ import { ColorModule } from './features/catalog/color/color.module';
 import { MaterialModule } from './features/catalog/material/material.module';
 import { ArticulModule } from './features/products/articul/articul.module';
 import { ImageModule } from './features/products/image/image.module';
+import { ProductColorModule } from './features/products/productColor/productColor.module';
 
 @Module({
   imports: [
@@ -24,7 +25,8 @@ import { ImageModule } from './features/products/image/image.module';
     ColorModule,
     MaterialModule,
     ArticulModule,
-    ImageModule
+    ImageModule,
+    ProductColorModule
   ],
   providers: [],
 })
