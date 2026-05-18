@@ -12,6 +12,7 @@ import { MaterialModule } from './features/catalog/material/material.module';
 import { ArticulModule } from './features/products/articul/articul.module';
 import { ImageModule } from './features/products/image/image.module';
 import { ProductColorModule } from './features/products/productColor/productColor.module';
+import { CartItemModule } from './features/cart/cartItem.module';
 
 @Module({
   imports: [
@@ -26,7 +27,8 @@ import { ProductColorModule } from './features/products/productColor/productColo
     MaterialModule,
     ArticulModule,
     ImageModule,
-    ProductColorModule
+    ProductColorModule,
+    CartItemModule
   ],
   providers: [],
 })
