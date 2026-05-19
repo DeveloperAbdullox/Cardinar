@@ -16,6 +16,7 @@ import { CartItemModule } from './features/cart/cartItem.module';
 import { OrderModule } from './features/orders/order/orders.module';
 import { OrderItemModule } from './features/orders/orderItem/orderItem.module';
 import { RequestModule } from './features/requests/request.module';
+import { StaticInfoModule } from './features/static/staticInfo/staticInfo.module';
 
 @Module({
   imports: [
@@ -34,7 +35,8 @@ import { RequestModule } from './features/requests/request.module';
     CartItemModule,
     OrderModule,
     OrderItemModule,
-    RequestModule
+    RequestModule,
+    StaticInfoModule
   ],
   providers: [],
 })
