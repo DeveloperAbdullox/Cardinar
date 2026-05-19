@@ -13,6 +13,7 @@ import { ArticulModule } from './features/products/articul/articul.module';
 import { ImageModule } from './features/products/image/image.module';
 import { ProductColorModule } from './features/products/productColor/productColor.module';
 import { CartItemModule } from './features/cart/cartItem.module';
+import { OrderModule } from './features/orders/order/orders.module';
 
 @Module({
   imports: [
@@ -28,7 +29,8 @@ import { CartItemModule } from './features/cart/cartItem.module';
     ArticulModule,
     ImageModule,
     ProductColorModule,
-    CartItemModule
+    CartItemModule,
+    OrderModule
   ],
   providers: [],
 })
