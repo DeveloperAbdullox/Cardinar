@@ -15,6 +15,7 @@ import { ProductColorModule } from './features/products/productColor/productColo
 import { CartItemModule } from './features/cart/cartItem.module';
 import { OrderModule } from './features/orders/order/orders.module';
 import { OrderItemModule } from './features/orders/orderItem/orderItem.module';
+import { RequestModule } from './features/requests/request.module';
 
 @Module({
   imports: [
@@ -32,7 +33,8 @@ import { OrderItemModule } from './features/orders/orderItem/orderItem.module';
     ProductColorModule,
     CartItemModule,
     OrderModule,
-    OrderItemModule
+    OrderItemModule,
+    RequestModule
   ],
   providers: [],
 })

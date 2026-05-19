@@ -4,7 +4,7 @@ import { User } from "./user.entity";
 
 @Entity('requests')
 export class Request extends BaseModel {
-    @Column()
+    @Column({ nullable: true })
     userId?: number
 
     @ManyToOne(() => User, (u) => u.requests)
