@@ -17,6 +17,7 @@ import { OrderModule } from './features/orders/order/orders.module';
 import { OrderItemModule } from './features/orders/orderItem/orderItem.module';
 import { RequestModule } from './features/requests/request.module';
 import { StaticInfoModule } from './features/static/staticInfo/staticInfo.module';
+import { SocialLinkModule } from './features/static/socialLink/socialLink.module';
 
 @Module({
   imports: [
@@ -36,7 +37,8 @@ import { StaticInfoModule } from './features/static/staticInfo/staticInfo.module
     OrderModule,
     OrderItemModule,
     RequestModule,
-    StaticInfoModule
+    StaticInfoModule,
+    SocialLinkModule
   ],
   providers: [],
 })
