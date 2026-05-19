@@ -19,6 +19,7 @@ import { RequestModule } from './features/requests/request.module';
 import { StaticInfoModule } from './features/static/staticInfo/staticInfo.module';
 import { SocialLinkModule } from './features/static/socialLink/socialLink.module';
 import { CustomModelModule } from './features/customProducts/customModel/customModel.module';
+import { CustomProductModule } from './features/customProducts/customProduct/customProduct.module';
 
 @Module({
   imports: [
@@ -40,7 +41,8 @@ import { CustomModelModule } from './features/customProducts/customModel/customM
     RequestModule,
     StaticInfoModule,
     SocialLinkModule,
-    CustomModelModule
+    CustomModelModule,
+    CustomProductModule
   ],
   providers: [],
 })
